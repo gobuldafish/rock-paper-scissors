@@ -43,6 +43,13 @@
                 const computerSelection = getComputerChoice();
                 playRound(humanSelection, computerSelection);
             }
+            if (humanScore > computerScore) {
+                console.log("You win! Congratulations!");
+            } else if (humanScore < computerScore) {
+                console.log("Womp womp. You lose!");
+            } else {
+                console.log("It's a tie!");
+            }
             
             
 
