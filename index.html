@@ -28,15 +28,16 @@
             return humanChoice;
         }
         //Variable that initializes and declares the human score
+        
+        //Variable that initializes and declares the computer score
         let humanScore = 0;
         let computerScore = 0;
-        //Variable that initializes and dedlares the computer score
-        
         
         
         function playGame() {
             
-            
+            humanScore = 0;
+            computerScore = 0;
             //Loop that plays five rounds
             for(let i = 0; i < 5; i++) {
                 const humanSelection = getHumanChoice();
