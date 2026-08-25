@@ -36,10 +36,11 @@
         
         function playGame() {
             
-            const humanSelection = getHumanChoice();
-            const computerSelection = getComputerChoice();
+            
             //Loop that plays five rounds
             for(let i = 0; i < 5; i++) {
+                const humanSelection = getHumanChoice();
+                const computerSelection = getComputerChoice();
                 playRound(humanSelection, computerSelection);
             }
             
